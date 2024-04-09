@@ -10,6 +10,8 @@
     <a href="https://yawbia.github.io/portfolio"> yawbia.github.io/portfolio</a>
     <br />
     <br />
+    Modified from <a href="https://github.com/hashirshoaeb/portfolio"> this work.</a>
+    <br />
   </p>
 </p>
 
