@@ -9,9 +9,7 @@
     <strong>Find out more about YawBia » </strong>
     <a href="https://yawbia.github.io/portfolio"> yawbia.github.io/portfolio</a>
     <br />
-    Modified from <a href="https://github.com/hashirshoaeb/portfolio"> this work.</a>
-    <br />
-    Built with Nextjs and Bootstrap5.
+    Personal website built with Nextjs and Bootstrap5 from <a href="https://github.com/hashirshoaeb/portfolio"> this work.</a>.
     <br />
   </p>
 </p>
