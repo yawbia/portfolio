@@ -11,6 +11,8 @@
     <br />
     Modified from <a href="https://github.com/hashirshoaeb/portfolio"> this work.</a>
     <br />
+    Built with Nextjs and Bootstrap5.
+    <br />
   </p>
 </p>
 
