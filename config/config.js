@@ -4,14 +4,14 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "YawBia",
   links: [
     {
       title: "About",
       link: "#about",
     },
     {
-      title: "Projects",
+      title: "Publications",
       link: "#projects",
     },
     {
@@ -22,15 +22,12 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
 }
+
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm YawBia",
+  description: "a structural biologist interested in infectious disease research.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +37,12 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://drive.google.com/file/d/1eqJmBhY9-aOUIdL6OO6IUjd-3ukpWErw/view?usp=sharing",
+      isPrimary: false,
+    },
+    {
+      title: "Publications",
+      link: "https://scholar.google.com/citations?user=vRS_sU4AAAAJ&hl=en&authuser=1",
       isPrimary: false,
     },
   ],
@@ -49,9 +51,10 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I graduated from Lee Kong Chian School of Medicine, Nanyang Technological University in 2023 for pursuing a PhD programme.",
+    "My research focused in understanding how virus replicate themselves during infection using structural biology and protein sciences methods.",
+    "I contributed to several research breakthroughs that advances the RNA virus research field for providing molecular insights into virus replication process and published in high impact scientific journals.",
+    "While away from work, I enjoy being a foodie, photographer, and nature-lover.",
   ],
 }
 
@@ -59,13 +62,18 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Protein + RNA",
+      description: "I analyse 3D structures of Protein and RNA molecules involed in complex biological processes for viral infection and immune defenses.",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Assay Development",
+      description: "I develop in vitro assays to characterize the biochemistry and biophysics of target protein and its interactions with ligands.",
+      icons: null,
+    },
+    {
+      title: "Biotherapeutics",
+      description: "I design biotherapeutic modalities with antiviral properties to address the unmet demand for infectious diseases.",
       icons: null,
     }
   ],
@@ -75,58 +83,51 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "CHIKV-RC",
+      description: "Molecular architecture of the Chikungunya virus replication complex - Y.B. Tan et al Science Advances 2023",
       icons: [
         {
           icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: "https://doi.org/10.1126/sciadv.add2536",
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: "Alphavirus Polymerase",
+      description: "Crystal structures of alphavirus nonstructural protein 4 (nsP4) reveal an intrinsically dynamic RNA-dependent RNA polymerase fold - Y.B. Tan et al, Nucleic Acids Research 2022",
       icons: [
         {
           icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          link: "https://doi.org/10.1093/nar/gkab1302",
         },
       ]
     },
     {
       title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      description: "My Research Portfolio.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: "https://github.com/yawbia",
         },
       ]
     },
   ],
 }
 
+
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at tanyawbia6@gmail.com.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:tanyawbia6@gmail.com",
       isPrimary: true,
     },
     {
       title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      link: "https://calendar.app.google/4BoeR8svw7PZiYQa6",
       isPrimary: false,
     },
   ]
@@ -135,35 +136,35 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Yaw Bia | Structural Biologist | Drug Discovery | Biotherapeutics",
+  description: "I analyse 3D molecular structures of biological processes to design biotherapeutics for human diseases.",
   image: profile.src,
 }
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: "@yawbia",
+  description: "Structural Biologist | Biotherapeutics Development",
   cards: [
     {
       title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      link: "https://yawbia.github.io/portfolio/",
     },
     {
       title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://github.com/yawbia/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://www.linkedin.com/in/yawbia/",
+    },
+    {
+      title: "My Scholar",
+      link: "https://scholar.google.com/citations?user=vRS_sU4AAAAJ&hl=en&authuser=1",
+    },
+    {
+      title: "My ORCID",
+      link: "https://orcid.org/0000-0002-1491-2516",
     },
   ]
 }
